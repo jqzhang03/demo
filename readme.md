@@ -570,7 +570,6 @@ Github的工作流，只有一个主干分支，基于Pull Request往主干分�
 Gitlab推荐的工作流是在GitFlow和Github Flow上做出优化，既保持了单一主分支的简便，又可以适应不同的开发环境
 **原则**：upstream first(上游优先)
 只有在上游分支采纳的代码才可以进入到下游分支，一般上游分支是master
-
 #### <span id="12">代码合并</span>
 
 Fast-forward：不会产生一个merge节点，合并后保持一个线性历史，如果target分支有了更新，则需要通过rebase操作更新source branch后才可以合入
